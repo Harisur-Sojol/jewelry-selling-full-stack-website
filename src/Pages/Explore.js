@@ -9,7 +9,7 @@ const Explore = (props) => {
   const {admin,setIsLoading} = useAuth();
 
   useEffect(() => {
-    fetch("http://localhost:5000/jewelries")
+    fetch("https://cryptic-fjord-10997.herokuapp.com/jewelries")
       .then((res) => res.json())
       .then((data) => setProducts(data));
   }, []);
@@ -20,7 +20,7 @@ const Explore = (props) => {
     
     const isConfirm = window.confirm("Are you sure...?");
     if (isConfirm) {
-      fetch(`http://localhost:5000/deleteProduct/${id}`, {
+      fetch(`https://cryptic-fjord-10997.herokuapp.com/deleteProduct/${id}`, {
         method: "DELETE",
         headers: { "content-type": "application/json" },
       })
@@ -37,6 +37,8 @@ const Explore = (props) => {
   return (
     <>
       <div className="container mt-5">
+          <h2 className="mt-4">New Arrivals</h2>
+          <p className="text-secondary fs-6 mb-4">Add new arrivals to weekly lineup</p>
         <div className="row">
           {products?.map(product => <Product key ={product._id} handleDelete={()=>handleDelete(product._id)} product={product}/>).slice(0,props.quantity)}
         </div>

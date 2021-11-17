@@ -17,6 +17,7 @@ import { Placeholder } from "react-bootstrap";
 import MyOrder from "./Pages/Myorder";
 import Dashboard from "./Pages/Dashboard/Dashboard";
 import MakeAdmin from "./Pages/Dashboard/MakeAdmin";
+import NotFound from "./Pages/NotFound"
 
 
 function App() {
@@ -54,6 +55,9 @@ function App() {
             </Route>
             <Route path="/addata">
               <AddData />
+            </Route>
+            <Route path="*">
+              <NotFound></NotFound>
             </Route>
           </Switch>
           <Footer />

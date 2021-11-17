@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../images/logo/logo.png'
 
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         className="text-center text-lg-start text-white"
         style={{ backgroundColor: "#1c2331" }}
       >
-        <section
+        {/* <section
           className="d-flex justify-content-between p-4"
           style={{ backgroundColor: "#6351ce" }}
         >
@@ -35,30 +36,20 @@ const Footer = () => {
               <i className="fab fa-github"></i>
             </a>
           </div>
-        </section>
+        </section> */}
 
         <section className="">
           <div className="container text-center text-md-start mt-5">
             <div className="row mt-3">
-              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 className="text-uppercase fw-bold">Kay jewelrs</h6>
-                <hr
-                  className="mb-4 mt-0 d-inline-block mx-auto"
-                  style={{
-                    width: "60px",
-                    backgroundColor: "#7c4dff",
-                    height: "2px",
-                  }}
-                />
-                <p>
-                
-                </p>
+              <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mt-5">
+                <img src={logo} className="bg-white w-25"/>
+                <p className="mt-4">We are a team of designers and developers that create high quality Magento, Prestashop, Opencart.</p>
               </div>
 
-              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-4">
                 <h6 className="text-uppercase fw-bold">Products</h6>
                 <hr
-                  className="mb-4 mt-0 d-inline-block mx-auto"
+                  className="mb-3 mt-0 d-inline-block mx-auto"
                   style={{
                     width: "60px",
                     backgroundColor: "#7c4dff",
@@ -87,10 +78,10 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5 mb-4">
                 <h6 className="text-uppercase fw-bold">Useful links</h6>
                 <hr
-                  className="mb-4 mt-0 d-inline-block mx-auto"
+                  className="mb-3 mt-0 d-inline-block mx-auto"
                   style={{
                     width: "60px",
                     backgroundColor: "#7c4dff",
@@ -119,10 +110,10 @@ const Footer = () => {
                 </p>
               </div>
 
-              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mt-5 mb-4">
                 <h6 className="text-uppercase fw-bold">Contact</h6>
                 <hr
-                  className="mb-4 mt-0 d-inline-block mx-auto"
+                  className="mb-3 mt-0 d-inline-block mx-auto"
                   style={{
                     width: "60px",
                     backgroundColor: "#7c4dff",
@@ -130,13 +121,13 @@ const Footer = () => {
                   }}
                 />
                 <p>
-                  <i className="fas fa-home mr-3"></i> New York, NY 10012, US
+                  <i className="fas fa-home mr-3"></i> 4710-4890 Breckinridge USA
                 </p>
                 <p>
-                  <i className="fas fa-envelope mr-3"></i> info@example.com
+                  <i className="fas fa-envelope mr-3"></i> support@plazathemes.com
                 </p>
                 <p>
-                  <i className="fas fa-phone mr-3"></i> + 01 234 567 88
+                  <i className="fas fa-phone mr-3"></i> + 1-1001-234-5678
                 </p>
                 <p>
                   <i className="fas fa-print mr-3"></i> + 01 234 567 89
@@ -150,10 +141,9 @@ const Footer = () => {
           className="text-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2020 Copyright:
-          <a className="text-white" href="https://mdbootstrap.com/">
-           Pritam Paul Dip
-          </a>
+          © 2021 Copyright | design by HARISUR RAHMAN SOJOL
+          
+          
         </div>
       </footer>
     </div>

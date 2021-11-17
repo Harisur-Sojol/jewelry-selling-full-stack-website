@@ -16,7 +16,7 @@ const Purchase = () => {
     formState: { errors },
   } = useForm();
   useEffect(() => {
-    fetch(`http://localhost:5000/jewelries/${id}`)
+    fetch(`https://cryptic-fjord-10997.herokuapp.com/jewelries/${id}`)
       .then((res) => res.json())
       .then((data) => setItem(data));
   }, [item]);
@@ -24,7 +24,7 @@ const Purchase = () => {
   const onSubmit = (data) => {
     data.price = item.price;
     data.status = "pending";
-    fetch("http://localhost:5000/placeOrder", {
+    fetch("https://cryptic-fjord-10997.herokuapp.com/placeOrder", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

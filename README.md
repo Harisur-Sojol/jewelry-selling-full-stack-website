@@ -11,4 +11,4 @@
 <p> Whatever budget you have we can help you get the best and quickest return on your initial wholesale investment.
 Our range is made from the finest solid silver and complimented with the most unusual stones one rarely sees set in silver jewellery.</p>
  
- live site link https://simple-jewelry-website.firebaseapp.com/
+ live site link : https://jewllery--store.web.app/

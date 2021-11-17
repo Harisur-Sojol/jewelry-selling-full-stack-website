@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import logo from '../images/logo/logo.png'
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import useAuth from '../Hooks/useAuth';
@@ -10,7 +11,7 @@ const Header = () => {
   return (
     <Navbar bg="light" expand="lg">
     <Container>
-      <Navbar.Brand href="#"><img src = 'https://www.kay.com/medias/kay-logo.svg?context=bWFzdGVyfGltYWdlc3w5NDY3fGltYWdlL3N2Zyt4bWx8aDc5L2g2MS8xMjQ2MDk3MDMxMTcxMC9rYXlfbG9nby5zdmd8NTRkYmFkODE5MjkwYmE2YzU0NjNjNDVmNTEzMjUzYjRiZTEwNjhhNGE1ODIwMDA4NWUwZGMxNjAyOGRlNjI3ZQ' className = 'w-50 img-fluid'/></Navbar.Brand>
+      <Navbar.Brand href="#"><img src = {logo} className = 'w-50 img-fluid'/></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav

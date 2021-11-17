@@ -1,0 +1,11 @@
+.feature-area{
+    background-image: url("http://corano.mallthemes.com/wp-content/uploads/2019/04/banner3.jpg");
+    height: 65vh;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.feature-img{
+    width: 80px;
+}

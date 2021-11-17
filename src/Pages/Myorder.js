@@ -6,7 +6,7 @@ const MyOrder = () => {
   const [orders, setOrders] = useState();
   const { user, setIsLoading, isLoading } = useAuth();
   useEffect(() => {
-    fetch(`http://localhost:5000/placedOrder/${user?.email}`)
+    fetch(`https://cryptic-fjord-10997.herokuapp.com/placedOrder/${user?.email}`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [orders]);
@@ -15,7 +15,7 @@ const MyOrder = () => {
     setIsLoading(true);
     const isConfirm = window.confirm("Are you sure...?");
     if (isConfirm) {
-      fetch(`http://localhost:5000/deleteOrder/${id}`, {
+      fetch(`https://cryptic-fjord-10997.herokuapp.com/deleteOrder/${id}`, {
         method: "DELETE",
         headers: { "content-type": "application/json" },
       })

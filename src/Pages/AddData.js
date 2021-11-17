@@ -6,7 +6,7 @@ const AddData = () => {
   const { register, handleSubmit, reset } = useForm();
   const onSubmit = (data) => {
     alert("Added successfully....")
-    fetch("http://localhost:5000/jewelries", {
+    fetch("https://cryptic-fjord-10997.herokuapp.com/jewelries", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(data),

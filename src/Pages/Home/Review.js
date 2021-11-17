@@ -4,7 +4,7 @@ import ReactStars from "react-stars";
 const Review = () => {
   const [reviews, setReviews] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/reviews")
+    fetch("https://cryptic-fjord-10997.herokuapp.com/reviews")
       .then((res) => res.json())
       .then((data) => setReviews(data));
   }, []);
@@ -45,7 +45,7 @@ const Review = () => {
   };
 
   return (
-    <div className="review-section my-5">
+    <div className="container review-section my-5">
       <h2 className="text-uppercase">what people say about us</h2>
       <div className="row align-items-center justify-content-center">
         <div className="col-lg-10 py-5">

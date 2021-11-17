@@ -6,7 +6,7 @@ const ManageOrder = () => {
   const [orders, setOrders] = useState();
   const { user, setIsLoading, isLoading } = useAuth();
   useEffect(() => {
-    fetch(`http://localhost:5000/placedOrder`)
+    fetch(`https://cryptic-fjord-10997.herokuapp.com/placedOrder`)
       .then((res) => res.json())
       .then((data) => setOrders(data));
   }, [orders]);
@@ -15,7 +15,7 @@ const ManageOrder = () => {
     setIsLoading(true);
     const isConfirm = window.confirm("Are you sure...?");
     if (isConfirm) {
-      fetch(`http://localhost:5000/deleteOrder/${id}`, {
+      fetch(`https://cryptic-fjord-10997.herokuapp.com/${id}`, {
         method: "DELETE",
         headers: { "content-type": "application/json" },
       })
@@ -30,7 +30,7 @@ const ManageOrder = () => {
   };
   const manageUpdate = (id) => {
    
-    fetch(`http://localhost:5000/updateOrder/${id}`, {
+    fetch(`https://cryptic-fjord-10997.herokuapp.com/${id}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
     })
