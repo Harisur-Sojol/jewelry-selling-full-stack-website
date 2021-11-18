@@ -6,6 +6,7 @@ import Banner from './Banner'
 import Review from './Review'
 import Feature from '../../Pages/Home/Feature/Feature'
 import EntryPage from './EntryPage/EntryPage'
+import Blog from './Blog/Blog'
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Explore quantity={6}/>
             <Review />
             <Feature></Feature>
+            <Blog></Blog>
             <About />
             
         </>

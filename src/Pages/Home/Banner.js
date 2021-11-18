@@ -7,21 +7,21 @@ const Banner = () => {
       <Carousel.Item>
         <img
           className="d-block w-100 h-50"
-          src="https://images.pexels.com/photos/1516357/pexels-photo-1516357.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src="http://mallikagroups.com/images/home/diamond.jpg"
           alt="First slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100 h-50"
-          src="https://images.pexels.com/photos/4275726/pexels-photo-4275726.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+          src="http://shreedaujijewels.com/wp-content/uploads/2018/09/slide5.jpg"
           alt="Second slide"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
           className="d-block w-100 h-50"
-          src="https://images.pexels.com/photos/6758029/pexels-photo-6758029.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=600"
+          src="https://i.pinimg.com/originals/33/86/28/338628e1c2115db125fbfff2a36415a8.jpg"
           alt="Third slide"
         />
       </Carousel.Item>

@@ -32,21 +32,21 @@ const Feature = () => {
                         </div>
                     </div>
                     <div className="d-flex align-items-center shadow my-4">
-                        <img src={img1} className="feature-img" alt="" />
+                        <img src={img2} className="feature-img" alt="" />
                         <div className="ms-3">
                             <p>Carat Solitaire Diamond</p>
                             <p className="text-secondary">$78.00</p>
                         </div>
                     </div>
                     <div className="d-flex align-items-center shadow my-4">
-                        <img src={img1} className="feature-img" alt="" />
+                        <img src={img3} className="feature-img" alt="" />
                         <div className="ms-3">
                             <p>Carat Solitaire Diamond</p>
                             <p className="text-secondary">$78.00</p>
                         </div>
                     </div>
                     <div className="d-flex align-items-center shadow my-4">
-                        <img src={img1} className="feature-img" alt="" />
+                        <img src={img4} className="feature-img" alt="" />
                         <div className="ms-3">
                             <p>Carat Solitaire Diamond</p>
                             <p className="text-secondary">$78.00</p>
@@ -63,21 +63,21 @@ const Feature = () => {
                         </div>
                     </div>
                     <div className="d-flex align-items-center shadow my-4">
-                        <img src={img5} className="feature-img" alt="" />
+                        <img src={img6} className="feature-img" alt="" />
                         <div className="ms-3">
                             <p>Carat Solitaire Diamond</p>
                             <p className="text-secondary">$78.00</p>
                         </div>
                     </div>
                     <div className="d-flex align-items-center shadow my-4">
-                        <img src={img5} className="feature-img" alt="" />
+                        <img src={img7} className="feature-img" alt="" />
                         <div className="ms-3">
                             <p>Carat Solitaire Diamond</p>
                             <p className="text-secondary">$78.00</p>
                         </div>
                     </div>
                     <div className="d-flex align-items-center shadow my-4">
-                        <img src={img5} className="feature-img" alt="" />
+                        <img src={img8} className="feature-img" alt="" />
                         <div className="ms-3">
                             <p>Carat Solitaire Diamond</p>
                             <p className="text-secondary">$78.00</p>
