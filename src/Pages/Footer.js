@@ -12,12 +12,12 @@ const Footer = () => {
           <div className="container text-center text-md-start mt-5">
             <div className="row mt-3">
               <div className="col-md-3 col-lg-4 col-xl-3 mx-auto mt-5">
-                <img src={logo} className="bg-white w-25"/>
+                <img src={logo} className="" style={{width:"130px"}}/>
                 <p className="mt-4">We are a team of designers and developers that create high quality Magento, Prestashop, Opencart.</p>
               </div>
 
               <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5 mb-4">
-                <h6 className="text-uppercase fw-bold">Products</h6>
+                <h6 className="text-uppercase fw-bold">Information</h6>
                 <hr
                   className="mb-3 mt-0 d-inline-block mx-auto"
                   style={{
@@ -27,24 +27,16 @@ const Footer = () => {
                   }}
                 />
                 <p>
-                  <a href="#!" className="text-white">
-                    Todays Market
-                  </a>
-                </p>
-                <p>
-                  <a href="#!" className="text-white">
                     About Us
-                  </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-white">
-                    Prices
-                  </a>
+                    Privacy Policy
                 </p>
                 <p>
-                  <a href="#!" className="text-white">
-                    Contributor?
-                  </a>
+                    Frequently Questions
+                </p>
+                <p>
+                    Shipping & Delivery
                 </p>
               </div>
 
@@ -59,24 +51,16 @@ const Footer = () => {
                   }}
                 />
                 <p>
-                  <a href="#!" className="text-white">
                     Your Account
-                  </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-white">
                     Become an Affiliate
-                  </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-white">
                     Shipping Rates
-                  </a>
                 </p>
                 <p>
-                  <a href="#!" className="text-white">
-                    Help
-                  </a>
+                    Help 
                 </p>
               </div>
 
@@ -111,7 +95,7 @@ const Footer = () => {
           className="text-center p-3"
           style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
         >
-          © 2021 Copyright | design by HARISUR RAHMAN SOJOL
+          © 2021 Copyright Innovative | design by HARISUR RAHMAN SOJOL
           
           
         </div>

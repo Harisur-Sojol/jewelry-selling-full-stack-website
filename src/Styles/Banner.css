@@ -1,9 +1,16 @@
-.carousel-inner{
+/* .carousel-inner{
     height: 90vh;
+} */
+.slider{
+    height: 60vh;
 }
+/* .itemOne{
+   height: 50vh;
+   width: 100%;
+} */
 
-@media screen and (max-width:750px){
+/* @media screen and (max-width:750px){
     .carousel-inner{
-        height:100%;
+        height:50%;
     }
-}
+} */

@@ -13,7 +13,7 @@ const Product = (props) => {
   return (
     <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
       <Card className = 'shadow h-100'>
-        <Card.Img variant="top" src={image} />
+        <Card.Img variant="top" src={image} style={{height: "280px"}}/>
         <Card.Body>
           <Card.Title>{title}</Card.Title>
           <Card.Text className = 'text-muted'>
@@ -24,7 +24,7 @@ const Product = (props) => {
           </h5>
           {admin ?  <Button variant="danger" onClick={props.handleDelete} >Delete</Button> :
           <Link to= {`/purchase/${_id}`}>
-          <Button variant="primary" >Details</Button>
+          <Button variant="warning">DETAILS</Button>
           </Link>}
         </Card.Body>
       </Card>

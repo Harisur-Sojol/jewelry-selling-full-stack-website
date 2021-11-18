@@ -37,8 +37,8 @@ const Explore = (props) => {
   return (
     <>
       <div className="container mt-5">
-          <h2 className="mt-4">New Arrivals</h2>
-          <p className="text-secondary fs-6 mb-4">Add new arrivals to weekly lineup</p>
+          <h2 className="mt-4">Our Products</h2>
+          <p className="text-secondary fs-6 mb-4">Add our products to weekly lineup</p>
         <div className="row">
           {products?.map(product => <Product key ={product._id} handleDelete={()=>handleDelete(product._id)} product={product}/>).slice(0,props.quantity)}
         </div>
