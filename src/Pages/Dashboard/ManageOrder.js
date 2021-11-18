@@ -15,7 +15,7 @@ const ManageOrder = () => {
     setIsLoading(true);
     const isConfirm = window.confirm("Are you sure...?");
     if (isConfirm) {
-      fetch(`https://cryptic-fjord-10997.herokuapp.com/${id}`, {
+      fetch(`https://cryptic-fjord-10997.herokuapp.com/deleteProduct/${id}`, {
         method: "DELETE",
         headers: { "content-type": "application/json" },
       })
