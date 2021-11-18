@@ -30,7 +30,7 @@ const ManageOrder = () => {
   };
   const manageUpdate = (id) => {
    
-    fetch(`https://cryptic-fjord-10997.herokuapp.com/${id}`, {
+    fetch(`https://cryptic-fjord-10997.herokuapp.com/updateOrder/${id}`, {
       method: "PUT",
       headers: { "content-type": "application/json" },
     })

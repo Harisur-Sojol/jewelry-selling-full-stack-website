@@ -43,7 +43,6 @@ function App() {
             <PrivateRoute path="/purchase/:id">
               <Purchase />
             </PrivateRoute>
-
             <Route path="/registration">
               <Registration />
             </Route>
