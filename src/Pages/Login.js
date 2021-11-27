@@ -82,7 +82,6 @@ const Login = () => {
                           <a href="#!">Terms of service</a>
                         </label>
                       </div>
-
                       <div className="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
                         <button
                           type="button"

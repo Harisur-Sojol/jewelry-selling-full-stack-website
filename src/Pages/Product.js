@@ -28,6 +28,7 @@ const Product = (props) => {
           </Link>}
         </Card.Body>
       </Card>
+      
     </div>
   );
 };

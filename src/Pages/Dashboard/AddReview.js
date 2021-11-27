@@ -2,16 +2,16 @@ import React from "react";
 import { useForm } from "react-hook-form";
 
 const AddReview = () => {
-    const { register, handleSubmit, watch,reset, formState: { errors } } = useForm();
+  const { register, handleSubmit, watch, reset, formState: { errors } } = useForm();
   const onSubmit = (data) => {
 
-    fetch(`https://cryptic-fjord-10997.herokuapp.com/reviews`,{
-        method:"POST",
-        headers:{'content-type':'application/json'},
-        body:JSON.stringify(data)
+    fetch(`https://cryptic-fjord-10997.herokuapp.com/reviews`, {
+      method: "POST",
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(data)
     }).then(res => res.json())
     alert('Thanks for your valuable feedback!!')
-   reset()
+    reset()
   };
   return (
     <div className="container">
@@ -52,10 +52,10 @@ const AddReview = () => {
             <input
               type="submit"
               className="mb-4 text-uppercase btn btn-danger"
-              value = 'add review'
+              value='add review'
             />
 
-           
+
           </form>
         </div>
       </div>

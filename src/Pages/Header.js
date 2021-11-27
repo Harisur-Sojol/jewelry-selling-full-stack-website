@@ -9,7 +9,7 @@ const Header = () => {
   const history = useHistory();
 
   return (
-    <Navbar bg="dark" expand="lg">
+    <Navbar bg="dark" sticky="top" expand="lg">
       <Container>
         <Navbar.Brand href="#"><img src={logo} className='w-75' /></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" className="bg-white"/>

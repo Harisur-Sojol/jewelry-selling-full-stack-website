@@ -14,6 +14,7 @@ import ManageOrder from "./ManageOrder";
 import AddReview from "./AddReview";
 import MangaProduct from "./ManageProduct";
 import { useHistory } from "react-router";
+
 const Dashboard = () => {
   const history = useHistory();
   const {user,admin,logOut} = useAuth();
@@ -38,7 +39,6 @@ const Dashboard = () => {
               {!admin &&<NavLink
                 to={`${url}/pay`}
                 style={{
-                 
                   textDecoration: "none",
                   color: "black",
                 }}
